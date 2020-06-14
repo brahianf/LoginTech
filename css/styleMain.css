@@ -94,7 +94,6 @@ body {
     margin: 0;
     border: 0;
     color: white;
-    text-decoration: none;
     font-size: 1em;
 } 
 
@@ -105,9 +104,16 @@ body {
     background:linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
     cursor: pointer;
 }
+.button-login a{
+    text-decoration: none;
+}
 
 .msj-password h2{
     color: white;
     text-decoration: none;
     font-size: 2em;
+}
+
+.msj-password a{
+    text-decoration: none;
 }
